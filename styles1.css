@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.button{
+    background-color: gray;
+    padding: 10px 25px;
+    border: none;
+    margin: 10px;
+    color: whitesmoke;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+header{
+    background:linear-gradient(45deg,teal,lightseagreen);
+    padding: 20px;
+    text-align: center;
+    color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav{
+    background-color: lightgray;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+nav a:hover{
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+.home-section{
+    padding: 100px;
+}
+div img{
+    width: 400px;
+    height: 400px;
+}
+.Packages-Section figure{
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+.Packages-Section figure img{
+    width: 100%;
+}
+.Packages-Section figure figcaption{
+    font-size: 30px;
+}
+.Packages-Section figure p{
+    font-size: 18px;
+}
+.main-footer{
+    background-color:gray;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+}
+.Gallery-Section figure{
+    margin: 10px;
+    border: 2px solid black;
+    width: 400PX;
+    padding: 10px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px black;
+    display: inline-block;
+}
+.Gallery-Section figure figcaption{
+    font-size: 30px;
+}
+.Contact-Info table{
+    padding: 40px;
+    margin: 50px;
+    text-align: center;
+}
+marquee{
+    color: chartreuse;
+    font-size: 30px;
+    background-color: purple;
+}
